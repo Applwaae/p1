@@ -1,15 +1,10 @@
 {
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  "include": ["vite.config.*", "vitest.config.*"],
   "compilerOptions": {
     "composite": true,
     "module": "ESNext",
-    "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "types": ["node"]
-  },
-  "include": ["vite.config.*", "vitest.config.*", "cypress.config.*", "playwright.config.*"]
+    "moduleResolution": "bundler", 
+    "emitDeclarationOnly": true
+  }
 }
