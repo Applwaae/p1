@@ -257,25 +257,13 @@ function handleMouseLeave(event) {
       </section>
 
       <section id="academic-achievements" class="academic-achievements section-with-wave">
-        <h2 class="section-title">Academic Achievements</h2>
-        <div class="achievements-list">
-          <h3>Education Background</h3>
-          <ul>
-            <li><strong>XX University</strong> - Bachelor of Computer Science and Technology (2018-2022)</li>
-            <li>Majors: Software Engineering, Data Structures, Algorithm Design</li>
-          </ul>
-          <h3>Research Achievements</h3>
-          <ul>
-            <li><strong>Machine Learning-based Image Recognition System</strong> - Graduation Project (2022)</li>
-            <li>Developed a high-precision image recognition model capable of recognizing various objects.</li>
-          </ul>
-          <h3>Honors and Awards</h3>
-          <ul>
-            <li><strong>Outstanding Graduate (University Level)</strong> (2022)</li>
-            <li><strong>Second Prize in National University Software Design Competition</strong> (2021)</li>
-          </ul>
+        <div class="resume-link">
+          <a href="assets/resume.pdf" target="_blank" class="btn btn-primary">
+            📄 View My Resume
+          </a>
         </div>
       </section>
+
 
       <section id="projects" class="projects section-with-wave">
         <h2 class="section-title">My Projects</h2>
