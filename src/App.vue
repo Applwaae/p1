@@ -41,7 +41,7 @@ const projects = ref([
     image: "/src/assets/p2-preview.png",
     links: [
       { text: "Visit Website", url: "#" },
-      { text: "GitHub", url: "https://timetablev1-4rfgm5xwcsnjftm3jbmtmb.streamlit.app/" }
+      { text: "GitHub", url: "https://gwphezdsjlvohnsh4p2hx7.streamlit.app/" }
     ]
   }
 ])
