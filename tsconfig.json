@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "composite": true,
-    "noEmit": true,
+    "noEmit": true, // Keep noEmit here so the root project doesn't output files
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
