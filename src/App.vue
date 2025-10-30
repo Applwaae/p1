@@ -27,7 +27,17 @@ const projects = ref([
   {
     id: 1,
     title: "Smart Schedule Generator",
-    description: "An AI-powered smart schedule generation tool that allows users to customize courses, activities, and preferences to automatically create an optimal schedule.",
+    description: "Smart schedule generation tool that allows users to customize courses, activities, and preferences to automatically create an optimal schedule.",
+    image: "/src/assets/p1-preview.png",
+    links: [
+      { text: "Visit Website", url: "#" },
+      { text: "GitHub", url: "https://timetablev1-4rfgm5xwcsnjftm3jbmtmb.streamlit.app/" }
+    ]
+  },
+  {
+    id: 2,
+    title: "AI chatting robot",
+    description: "An AI-powered chatting robot that can assist you",
     image: "/src/assets/p2-preview.png",
     links: [
       { text: "Visit Website", url: "#" },
