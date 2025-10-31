@@ -1,8 +1,12 @@
-// vite.config.ts
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+import { resolve } from 'path';
 export default defineConfig({
-  plugins: [vue()],
-  base: './', // Use relative paths
-})
+    plugins: [vue()],
+    resolve: {
+        alias: {
+            '@': resolve(__dirname, 'src')
+        }
+    },
+    base: './' // This is crucial for Cloudflare Pages deployment
+});
