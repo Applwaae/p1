@@ -5,7 +5,7 @@ import anime from 'animejs'
 // --- 1. 个人简介数据 ---
 const profile = ref({
   name: "Apple Ma",
-  avatar: "/public/assets/avatar.jpg", // Added avatar path
+  avatar: "/avatar.jpg", // Added avatar path
   title: [
     { "text": "Self-starter", "color": "#FF6347" },
     { "text": "Growing developer", "color": "#4682B4" },
@@ -29,7 +29,7 @@ const projects = ref([
     id: 1,
     title: "Smart Schedule Generator",
     description: "Smart schedule generation tool that allows users to customize courses, activities, and preferences to automatically create an optimal schedule.",
-    image: "/public/assets/p1-preview.png",
+    image: "/p1-preview.png",
     links: [
       { "text": "Visit Website", "url": "https://timetablev1-4rfgm5xwcsnjftm3jbmtmb.streamlit.app/" },
       { "text": "GitHub", "url": "https://github.com/Applwaae/timetablev1" }
@@ -39,7 +39,7 @@ const projects = ref([
     id: 2,
     title: "AI chatting robot",
     description: "An AI-powered chatting robot that can assist you",
-    image: "/public/assets/p2-preview.png",
+    image: "/p2-preview.png",
     links: [
       { "text": "Visit Website", "url": "https://aichatbot-9fahrsv79da58puyzmoce6.streamlit.app/" },
       { "text": "GitHub", "url": "https://github.com/Applwaae/aichatbot" }
@@ -226,7 +226,7 @@ function handleMouseLeave(event) {
         <line x1="3" y1="18" x2="21" y2="18"></line>
       </svg>
     </button>
-    <a href="/public/assets/Resume - Apple Ma.docx.pdf" download class="resume-download-btn">
+    <a href="/Resume - Apple Ma.docx.pdf" download class="resume-download-btn">
       <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
         <polyline points="7 10 12 15 17 10"></polyline>
