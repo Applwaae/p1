@@ -1,0 +1,18 @@
+[plugin:vite:vue] D:/web-projects/vue-spa/src/App.vue:269:1: Unexpected }
+D:/web-projects/vue-spa/src/App.vue:522:1
+521 |  }
+522 |  
+523 |  
+    |  ^
+524 |  
+525 |
+    at Input.error (D:\web-projects\vue-spa\node_modules\postcss\lib\input.js:135:16)
+    at Parser.unexpectedClose (D:\web-projects\vue-spa\node_modules\postcss\lib\parser.js:587:22)
+    at Parser.end (D:\web-projects\vue-spa\node_modules\postcss\lib\parser.js:330:12)
+    at Parser.parse (D:\web-projects\vue-spa\node_modules\postcss\lib\parser.js:456:16)
+    at parse (D:\web-projects\vue-spa\node_modules\postcss\lib\parse.js:11:12)
+    at new LazyResult (D:\web-projects\vue-spa\node_modules\postcss\lib\lazy-result.js:165:16)
+    at Processor.process (D:\web-projects\vue-spa\node_modules\postcss\lib\processor.js:53:14)
+    at doCompileStyle (D:\web-projects\vue-spa\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:19519:36)
+    at Object.compileStyleAsync (D:\web-projects\vue-spa\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:19439:10)
+    at transformStyle (file:///D:/web-projects/vue-spa/node_modules/@vitejs/plugin-vue/dist/index.js:1863:40)

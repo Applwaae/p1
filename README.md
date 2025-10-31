@@ -1,4 +1,8 @@
-# Vue 3 + TypeScript + Vite
+# Personal Portfolio Website
+
+This is a personal portfolio website built with Vue 3 and Vite. It showcases my profile, projects, academic achievements, and social links. The site features modern animations and interactive elements to provide an engaging user experience.
+
+## Project Setup
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
