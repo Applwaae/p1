@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted, computed, onBeforeMount } from 'vue'
-import anime from 'animejs'
+import * as anime from 'animejs'
 
 // --- 1. 个人简介数据 ---
 const profile = ref({
