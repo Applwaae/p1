@@ -1,15 +1,10 @@
 {
+  "extends": "@vue/tsconfig/tsconfig.node.json",
   "include": ["vite.config.*", "vitest.config.*"],
   "compilerOptions": {
     "composite": true,
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "types": ["node"],
-    "target": "ES2020",
-    "strict": true,
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "lib": ["ES2020"],
-    "emitDeclarationOnly": true 
+    "types": ["node"]
   }
 }
